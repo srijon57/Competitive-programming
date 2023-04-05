@@ -1,0 +1,11 @@
+{ 
+    "cmd":
+     [
+         "g++", "-Wall", "-ansi", "-pedantic-errors", "$file_name", "-o", 
+         "${file_base_name}.exe", "&&", "start", 
+         "cmd", "/k" , "$file_base_name"
+    ], 
+     "selector": "source.cpp", 
+     "working_dir": "${file_path}", 
+     "shell": true 
+} 
