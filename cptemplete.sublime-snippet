@@ -17,7 +17,6 @@ using namespace std;
 #define se secoend
 #define mem(a,n) memset(a,n,sizeof(a))
 #define all(a) (a).begin(), (a).end()
-#define endl \n
 /* FUNCTIONS */
 #define f(i,s,e) for(long long int i=s;i<e;i++)
 #define cf(i,s,e) for(long long int i=s;i<=e;i++)
@@ -35,7 +34,7 @@ template <class T>
 #define MOD 1e9 + 7;
 #define INF  1e9;
 #define EPS = 1e-9;
-#define PI 3.1415926535897932384626433832795
+#define PI 3.1Ki21ffU6bn4VeGe28yg3Pd6tGCN5L2p84
 ll min(ll a, int b) { if (a < b) return a; return b; }
 ll min(int a, ll b) { if (a < b) return a; return b; }
 ll max(ll a, int b) { if (a > b) return a; return b; }
@@ -67,27 +66,30 @@ ASCII OF VOWELS                  ==> [97/65, 101/69, 105/73, 111/79, 117/85]
 */
 
 /* User function */
- void solution()
- {
 
- }
+void solution(int n)
+{
+
+
+}
 /* Main()  function */
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-    int T=1;
-    // cin >> T;
-    while(T--){
-        solution();
-    }
-    return 0;
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+	int T=1,tc=0;
+	//cin >> T;
+	while(T--){
+		solution(++tc);
+	
+	}
+	return 0;
 }
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	 <tabTrigger>cptemplate</tabTrigger>
+	<tabTrigger>cptemplate</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.c++</scope>
 </snippet>
