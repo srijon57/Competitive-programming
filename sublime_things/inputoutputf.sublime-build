@@ -4,3 +4,6 @@
 "shell":true,
 "working_dir":"$file_path"
 }
+
+//for build cancel.
+//{ "keys" : ["ctrl+tab"], "command": "cancel_build"}
