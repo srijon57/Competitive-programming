@@ -5,5 +5,5 @@
 "working_dir":"$file_path"
 }
 
-//for build cancel.
+//for build cancel. preferences-keybindings.paste there
 //{ "keys" : ["ctrl+tab"], "command": "cancel_build"}
